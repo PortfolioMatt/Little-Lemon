@@ -1,0 +1,7 @@
+1) Open comand terminal
+2) pipenv shell
+3) cd LittleLemon
+4) pipenv install
+5) python manage.py makemigrations
+6) python manage.py migrate
+7) python manage.py runserver
