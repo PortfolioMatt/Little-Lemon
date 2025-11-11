@@ -26,9 +26,6 @@ Esta API permite a diferentes tipos de usuarios (Customers, Managers, Delivery C
 ### Pasos de Instalación
 
 1. **Clonar el repositorio**
-   ```bash
-   cd LittleLemonProject
-   ```
 
 2. **Instalar dependencias con Pipenv**
    ```powershell
@@ -42,7 +39,7 @@ Esta API permite a diferentes tipos de usuarios (Customers, Managers, Delivery C
 
 4. **Navegar al directorio del proyecto Django**
    ```powershell
-   cd LittleLemonProject
+   cd LittleLemon
    ```
 
 5. **Aplicar migraciones**
@@ -50,17 +47,12 @@ Esta API permite a diferentes tipos de usuarios (Customers, Managers, Delivery C
    python manage.py migrate
    ```
 
-6. **Crear un superusuario (admin)**
-   ```powershell
-   python manage.py createsuperuser
-   ```
-
-7. **Iniciar el servidor de desarrollo**
+6. **Iniciar el servidor de desarrollo**
    ```powershell
    python manage.py runserver
    ```
 
-8. **Acceder a la aplicación**
+7. **Acceder a la aplicación**
    - API: http://127.0.0.1:8000/api/
    - Admin: http://127.0.0.1:8000/admin/
 
@@ -71,7 +63,7 @@ LittleLemonProject/
 ├── Pipfile                          # Dependencias del proyecto
 ├── Pipfile.lock                     # Versiones exactas de dependencias
 ├── README.md                        # Este archivo
-└── LittleLemonProject/              # Directorio principal del proyecto Django
+└── LittleLemon/              # Directorio principal del proyecto Django
     ├── manage.py                    # Utilidad de gestión de Django
     ├── db.sqlite3                   # Base de datos SQLite
     ├── LittleLemon/                 # Configuración del proyecto
