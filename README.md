@@ -137,7 +137,7 @@ LittleLemonProject/
 - Puede: todo lo de Customer + gestionar menú, categorías, asignar repartidores, ver todas las órdenes
 
 ### Delivery Crew (Repartidor)
-- Usuario en el grupo "Delivery Crew"
+- Usuario en el grupo "DeliveryCrew"
 - Puede: ver órdenes asignadas, actualizar estado de entrega
 
 ## Endpoints de la API
